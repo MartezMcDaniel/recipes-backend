@@ -1,0 +1,9 @@
+<!-- tunr/templates/tunr/artist_list.html -->
+<h2>Recipes <a href="">(+)</a></h2>
+<ul>
+    {% for recipe in recipes %}
+    <li>
+        <a href="{% url 'recipe_detail' pk=recipe.pk %}">{{ recipe.name }}</a>
+    </li>
+    {% endfor %}
+</ul>
