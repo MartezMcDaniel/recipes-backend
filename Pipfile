@@ -9,6 +9,7 @@ psycopg2-binary = "*"
 django-extensions = "*"
 ipython = "*"
 pylint-django = "*"
+djangorestframework = "*"
 
 [dev-packages]
 
